@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: url("images/e4.jpg");
+  background-image: url("np://user.desktop.nicepage.com/Site_86525655/images/e4.jpg?rand=e4e2");
   background-position: 50% 50%;
   min-height: 500px;
 }
@@ -74,7 +74,7 @@
 
 .u-section-1 .u-image-1 {
   min-height: 691px;
-  background-image: url("images/xx-min.jpg");
+  background-image: url("np://user.desktop.nicepage.com/Site_86525655/images/xx-min.jpg?rand=9264");
   background-position: 50% 50%;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
@@ -470,7 +470,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 1rem;
-  margin: 22px auto 0 0;
+  margin: 20px auto 0 0;
 }
 
 .u-section-3 .u-group-2 {
