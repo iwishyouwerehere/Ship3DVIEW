@@ -1,24 +1,22 @@
-# Online 3D Viewer
+Do the following steps to set up the development environment:
 
-[![Build status](https://github.com/kovacsv/Online3DViewer/actions/workflows/build.yml/badge.svg)](https://github.com/kovacsv/Online3DViewer/actions/workflows/build.yml)
-[![npm version](https://badge.fury.io/js/online-3d-viewer.svg)](https://badge.fury.io/js/online-3d-viewer)
-[![DeepScan grade](https://deepscan.io/api/teams/16586/projects/19893/branches/524595/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=16586&pid=19893&bid=524595)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/kovacsv/Online3DViewer.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/kovacsv/Online3DViewer/context:javascript)
+Run npm install from the root directory of your repository.
+Run npm run build_dev to generate the development version of the engine and the website.
+Run npm start, and then open http://localhost:8080/website in your browser.
+Source structure
+The source contains the following folders:
 
-Online 3D Viewer (https://3dviewer.net) is a free and open source web solution to visualize and explore 3D models right in your browser. This repository contains the source code of the website and the library behind it.
+assets: Various assets used in the code or in other platforms.
+libs: External libraries used by the solution.
+sandbox: Various examples mostly for using the engine.
+source: Source code of the engine and the website.
+engine: Source code of the engine. It doesn't contain any website specific code.
+website: Source code of the website.
+test: Automatic tests for the engine itself.
+tools: Tools for building the library.
+website: Static resources for the website.
 
-## Example
 
-![Start Page](assets/images/3dviewer_net_start_page.png?raw=true)
-
-[Check the live version!](https://3dviewer.net/#model=https://raw.githubusercontent.com/kovacsv/Online3DViewer/dev/test/testfiles/gltf/DamagedHelmet/glTF-Binary/DamagedHelmet.glb)
-
-## Documentation
-
-The repository is separated into two parts. See more information in the [Developer Documentation](https://github.com/kovacsv/Online3DViewer/wiki).
-
-* **Online 3D Viewer Website**: Source code of the web solution with all of the pages and functions.
-* **Online 3D Viewer Engine**: Source code of the library to visualize models easily.
 
 ## Supported file formats
 
